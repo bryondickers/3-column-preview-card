@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    :root{
+        --bright-orange:31 77% 52%;
+        --dark-cyan:184 100% 22%;
+        --very-dark-cyan:179 100% 13%;
+        --very-light-gray:0, 0%, 95%;
+        --transparent-white:0 0% 100%;
+
+    }
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+}
+
+
+@layer components{
+
+    .heading-style{
+        @apply text-2xl text-veryLightGrey my-4 font-bold font-bigShoulderFont
+    }
+    .content-style{
+        @apply text-sm leading-[1.7] text-whiteTrans font-lexendDeco 
+    }
+    .btn-style{
+        @apply hover:outline text-sm hover:outline-2 hover:outline-veryLightGrey p-2 my-5 w-[8rem] text-center block bg-veryLightGrey rounded-l-full rounded-r-full
+    }
+}
