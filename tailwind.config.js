@@ -12,8 +12,8 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        lexendDeco:"Lexend Deca', sans-serif",
-        bigShoulderFont:"'Big Shoulders Display', cursive;"
+        lexendDeco:"'Lexend Deca', sans-serif",
+        bigShoulderFont:"'Big Shoulders Display', cursive"
       }
     },
   },
